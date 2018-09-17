@@ -5,15 +5,35 @@
 }
 
 h1 {
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+footer{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form {
+    font-family: sans-serif;
+}
+
+/*Code for navigation bar*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #bcd2d0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 li {
@@ -58,4 +78,5 @@ active {
     color: #f1f1f1; /* Grey text */
     width: 85%; /* Adjusted width */
     padding: 20px; /* Some padding */
+    font-family: 'Ubuntu', sans-serif;
   }
