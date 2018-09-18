@@ -11,12 +11,13 @@ h1 {
 
 body {
     margin: 0;
+    background-image: url('file://C:/Users/megha/Desktop/code/Basic-Portfolio/assets/images/wavegrid/wavegrid_@2X.png');
 }
 
 .box1 {
     position: relative;
-    background: #f96161;
-    color: lightgray;
+    background: transparent;
+    color: #f96161;
     height: 50px;
     width: 250px;
     margin: 0;
@@ -52,7 +53,7 @@ form {
 
 footer {
     background-color: #e1e9b7;
-    color:#f96161;
+    color:lightgray;
     padding: 15px;
     position: fixed;
     left: 0;
