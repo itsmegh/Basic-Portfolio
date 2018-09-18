@@ -9,6 +9,10 @@ h1 {
 
 }
 
+body {
+    margin: 0;
+}
+
 .box1 {
     position: relative;
     background: #f96161;
@@ -22,11 +26,20 @@ h1 {
 
 h2 {
     font-family: 'Ubuntu', sans-serif;
+    margin-left: 40px;
+}
+
+aside {
+    float: left;
+    margin: 15px 40px 0 40px;
 }
 
 p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
+    width: 75%;
+    margin: auto 0;
+    padding-top: 20px;
 }
 
 footer{
