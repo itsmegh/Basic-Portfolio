@@ -56,6 +56,15 @@ hr {
     padding: 20px;
 }
 
+.portfoliobox {
+    position: relative;
+    background: lightgray;
+    height: 750px;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+
 aside {
     float: left;
     margin: 15px 40px 0 40px;
@@ -135,28 +144,30 @@ active {
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+    margin: 10px;
 }
 
 .img-container {
     float: left;
     width: 33.33%;
     padding: 5px;
-    margin: 5px 5px 15px 5px;
+    margin: 10px;
 }
 
 .container {
     position: relative; 
-    max-width: 300px; /* Maximum width */
-    margin: 0 auto; /* Center it */
+    max-width: 300px; 
+    margin: 0 auto; 
   }
   
   .container .content {
-    position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 85%; /* Adjusted width */
-    padding: 20px; /* Some padding */
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(248, 248, 248); /* Fallback color */
+    background: rgba(248, 248, 248, 0.5); /* Grey background with 0.5 opacity */
+    color:black;
+    width: 85%; 
+    padding: 20px; 
     font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
   }
