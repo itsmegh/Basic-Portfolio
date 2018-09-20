@@ -132,6 +132,9 @@ li a {
 
 li a:hover {
     background-color: #e5c3c6;
+    padding: 10px 15px;
+    margin: 0px;
+    cursor: pointer;
 }
 
 active {
